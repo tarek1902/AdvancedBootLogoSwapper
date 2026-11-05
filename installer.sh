@@ -1,8 +1,8 @@
 #!/bin/sh
 # AdvancedBootLogoSwapper Plugin Installer
 # Version: 1.0.0
-# Author: MNASR
-# wget -q --no-check-certificate https://raw.githubusercontent.com/popking159/abls/main/installer.sh -O - | /bin/sh
+# Author: tarek
+# wget -q --no-check-certificate https://raw.githubusercontent.com/tarek1902/AdvancedBootLogoSwapper/main/installer.sh -O - | /bin/sh
 
 echo "Starting installation..."
 
@@ -24,7 +24,7 @@ fi
 sleep 2
 
 echo "> Downloading AdvancedBootLogoSwapper..."
-wget -q -O /tmp/AdvancedBootLogoSwapper.tar.gz "https://github.com/popking159/abls/raw/refs/heads/main/AdvancedBootLogoSwapper.tar.gz"
+wget -q -O /tmp/AdvancedBootLogoSwapper.tar.gz "https://github.com/tarek1902/AdvancedBootLogoSwapper/raw/refs/heads/main/AdvancedBootLogoSwapper.tar.gz"
 
 if [ $? -ne 0 ]; then
     echo "ERROR: Download failed!"
@@ -44,7 +44,7 @@ sleep 2
 sync
 echo "========================================================="
 echo "===                      FINISHED                     ==="
-echo "===                       MNASR                       ==="
+echo "===                       TAREK                      ==="
 echo "========================================================="
 echo "     AdvancedBootLogoSwapper installed successfully!     "
 echo "========================================================="

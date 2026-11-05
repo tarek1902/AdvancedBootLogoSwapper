@@ -1,13 +1,13 @@
 #!/bin/sh
 
-# wget -qO - https://raw.githubusercontent.com/popking159/abls/refs/heads/main/myinstaller.sh | /bin/sh
+# wget -qO - https://raw.githubusercontent.com/tarek1902/AdvancedBootLogoSwapper/refs/heads/main/myinstaller.sh | /bin/sh
 
 # =========================================================================
 # CONFIGURATION (Change these for different repositories)
 # =========================================================================
 PLUGIN_NAME="AdvancedBootLogoSwapper"
-USERNAME="popking159"
-REPO="abls"
+USERNAME="tarek1902"
+REPO="AdvancedBootLogoSwapper"
 
 # 1. PYTHON DEPENDENCIES (Write only the core module names without prefixes)
 # The script automatically adds 'python-' for Py2 or 'python3-' for Py3.
